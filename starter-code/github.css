@@ -1,0 +1,742 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #141D2F;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.light-theme {
+    background-color: #F6F8FF;
+    color: #4B6A9B;
+}
+
+.light-theme-2 {
+    background-color: #FEFEFE !important;
+    color: #4B6A9B !important;
+}
+
+.light-theme-3 {
+    background-color: #F6F8FF !important;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+    height: 593px;
+}
+
+.blueblack {
+    color: #2B3442;
+}
+
+/* Header */
+
+header {
+
+    width: 327px;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.project-header {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    margin: 0;
+}
+
+.daynight-panel {
+    display: flex;
+    justify-content: space-between;
+    width: 86px;
+}
+
+.daynight-panel:hover {
+    cursor: pointer;
+}
+
+.daynight-text {
+    margin: 0;
+}
+
+.moon-logo:hover {
+    cursor: pointer;
+}
+
+.sun-logo:hover {
+    cursor: pointer;
+}
+
+.nodisplay {
+    display: none;
+}
+
+/* Search */
+
+.search-panel {
+    position: relative;
+    width: 100%;
+    height: 68px;
+    margin: 0;
+    background-color: #1E2A47;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 38px;
+    color: white;
+}
+
+.search-logo {
+    margin-left: 18px;
+    margin-right: 9px;
+}
+
+.input-github {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    height: 68px;
+}
+
+.input-github:hover {
+    cursor: pointer;
+}
+
+.input-github:focus {
+    outline: none;
+}
+
+.button-search {
+    padding: 0;
+    width: 84px;
+    height: 46px;
+    background-color: #0079FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 7px;
+}
+
+.button-search:hover {
+    background-color: #60ABFF;
+    cursor: pointer;
+}
+
+/* User section */
+
+.section-user {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    background-color: #1E2A47;
+    border-radius: 15px;
+}
+
+.container-user {
+    width: 279px;
+    height: 517px;
+    margin-top: 32px;
+}
+
+.container-info {
+    width: 234px;
+    height: 70px;
+    display: flex;
+}
+
+.image-github {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.image-github img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.info-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.username {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.username-at {
+    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #0079FF;
+}
+
+.join-date {
+    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.description {
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    height: 75px;
+    display: flex;
+    margin-top: 33px;
+}
+
+.followers-panel {
+    display: flex;
+    background-color: #141D2F;
+    border-radius: 10px;
+    height: 85px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+}
+
+.underheader {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.undertext {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 24px;
+}
+
+.footer-panel {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.footer-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.website-link, .company, .twitter {
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+.website-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.twitter:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.company:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.error-message {
+    width: 100px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #F74646;
+    position: absolute;
+    top: -25px;
+    right: -10px;
+}
+
+.hidden {
+    visibility: hidden;
+    width: 0px;
+}
+
+.footer-panel-right {
+    margin-left: 0px;
+}
+
+.nolink {
+    text-decoration: none;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.nolink:hover {
+    text-decoration: none;
+    cursor:auto;
+}
+
+
+/* Tablet */ 
+
+@media screen and (min-width: 601px) {
+
+
+.container-main {
+    width: 573px;
+    height: 648px;
+}
+
+/* Header */
+
+header {
+    width: 573px;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-header {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    margin: 0;
+}
+
+.daynight-panel {
+    display: flex;
+    justify-content: space-between;
+    width: 86px;
+}
+
+/* Search */
+
+.search-panel {
+    width: 100%;
+    height: 68px;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+
+.search-logo {
+    margin-left: 32px;
+    margin-right: 24px;
+}
+
+.input-github {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    height: 68px;
+    width: 380px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.button-search {
+    width: 106px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 7px;
+    margin-left: 10px;
+}
+
+.button-search:hover {
+    background-color: #60ABFF;
+    cursor: pointer;
+}
+
+/* User section */
+
+.section-user {
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 15px;
+}
+
+.container-user {
+    width: 493px;
+    max-height: 700px;
+    margin-top: 32px;
+}
+
+.container-info {
+    width: 334px;
+    height: 117px;
+}
+
+.image-github {
+    width: 117px;
+    height: 117px;
+    margin-right: 41px;
+}
+
+.image-github img {
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+}
+
+  
+.info-panel {
+    width: 500px;
+    height: 91px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.names-panel {
+    width: 200px;
+}
+
+.username {
+    font-size: 26px;
+    line-height: 39px;
+}
+
+.username-at {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.join-date {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.description {
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    height: 75px;
+    margin-top: 24px;
+}
+
+.followers-panel {
+    border-radius: 10px;
+    width: 493px;
+    height: 85px;
+    margin-top: 24px;
+}
+
+.panel {
+    height: 48px;
+}
+
+.underheader {
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.undertext {
+    font-size: 22px;
+    line-height: 33px;
+}
+
+footer {
+    width: 480px;
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 37px;
+
+}
+
+.footer-panel {
+    width: 230px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.footer-panel-right {
+    margin-left: 0px;
+}
+
+.footer-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.error-message {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 22px;
+    top: 25px;
+    right: 115px;
+    position: absolute;
+}
+
+}
+
+/* Desktop */ 
+
+@media screen and (min-width: 992px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-main {
+        width: 730px;
+        height: 648px;
+    }
+    
+    /* Header */
+    
+    header {
+        width: 730px;
+        height: 39px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .project-header {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 39px;
+        margin: 0;
+    }
+    
+    .daynight-panel {
+        display: flex;
+        justify-content: space-between;
+        width: 86px;
+    }
+    
+    /* Search */
+    
+    .search-panel {
+        width: 100%;
+        height: 68px;
+        border-radius: 15px;
+        margin-top: 35px;
+    }
+    
+    .search-logo {
+        margin-left: 32px;
+        margin-right: 24px;
+    }
+    
+    .input-github {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        height: 68px;
+        width: 500px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .button-search {
+        width: 106px;
+        height: 50px;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 7px;
+        margin-left: 10px;
+    }
+    
+    .button-search:hover {
+        background-color: #60ABFF;
+        cursor: pointer;
+    }
+    
+    /* User section */
+    
+    .section-user {
+        width: 100%;
+        max-height: 700px;
+        margin-top: 16px;
+        border-radius: 15px;
+    }
+    
+    .container-user {
+        width: 634px;
+        max-height: 700px;
+        margin-top: 32px;
+    }
+    
+    .container-info {
+        width: 634px;
+        height: 117px;
+    }
+    
+    .image-github {
+        width: 117px;
+        height: 117px;
+        margin-right: 41px;
+    }
+    
+    .image-github img {
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+    }
+
+    
+    .info-panel {
+        width: 500px;
+        height: 91px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .names-panel {
+        width: 200px;
+    }
+    
+    .username {
+        font-size: 26px;
+        line-height: 39px;
+    }
+    
+    .username-at {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .join-date {
+        font-size: 15px;
+        line-height: 22px;
+        width: 200px;
+        margin-top: 10px;
+    }
+    
+    .description {
+        width: 480px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        max-height: 150px;
+        margin-top: 16px;
+        margin-left: 160px;
+    }
+    
+    .followers-panel {
+        border-radius: 10px;
+        width: 493px;
+        height: 85px;
+        margin-top: 24px;
+        margin-left: 140px;
+    }
+    
+    .panel {
+        height: 48px;
+    }
+    
+    .underheader {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    
+    .undertext {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    
+    footer {
+        width: 460px;
+        height: 65px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 37px;
+        margin-left: 160px;
+
+    }
+    
+    .footer-panel {
+        width: 230px;
+        height: 20px;
+        margin-top: 15px;
+    }
+
+    .footer-panel-right {
+        margin-left: 0px;
+    }
+    
+    .footer-logo {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    
+    .error-message {
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 22px;
+        top: 25px;
+        right: 115px;
+        position: absolute;
+    }
+}
+
